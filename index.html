@@ -25,21 +25,28 @@
     <title>Synthexia</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div>
       <header>
-        <nav>
-          <div class="logo-container">
-            <div class="logo">
-              <img src="assets\images\logo.png" alt="Logo" />
-            </div>
-            <div class="company-name">Synthexia</div>
+        <div class="logo-container">
+          <div class="logo">
+            <img src="assets\images\logo.png" alt="Logo" />
           </div>
+          <div class="company-name">Synthexia</div>
+        </div>
+        <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="extensions.html">Extensions</a></li>
             <li><a href="npm.html">NPMs</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <div class="nav-icon">
+            <img
+              src="assets/images/menu.png"
+              alt="Menu Icon"
+              class="menuicon"
+            />
+          </div>
         </nav>
       </header>
 
@@ -62,39 +69,21 @@
           <div class="rectangle-section">
             <div class="rectangle">
               <div class="rec-icon">
-                <img src="icon1.png" alt="Icon 1" />
+                <img src="assets/images/vscode.png" alt="Icon 1" />
               </div>
-              <div class="rec-text">Rectangle Text 1</div>
+              <div class="rec-text">VS Code Extensions</div>
             </div>
             <div class="rectangle">
               <div class="rec-icon">
-                <img src="icon2.png" alt="Icon 2" />
+                <img src="assets/images/npm.png" alt="Icon 2" />
               </div>
-              <div class="rec-text">Rectangle Text 2</div>
+              <div class="rec-text">NPM Packages</div>
             </div>
             <div class="rectangle">
               <div class="rec-icon">
-                <img src="icon3.png" alt="Icon 3" />
+                <img src="assets/images/api.png" alt="Icon 3" />
               </div>
-              <div class="rec-text">Rectangle Text 3</div>
-            </div>
-            <div class="rectangle">
-              <div class="rec-icon">
-                <img src="icon4.png" alt="Icon 4" />
-              </div>
-              <div class="rec-text">Rectangle Text 4</div>
-            </div>
-            <div class="rectangle">
-              <div class="rec-icon">
-                <img src="icon5.png" alt="Icon 5" />
-              </div>
-              <div class="rec-text">Rectangle Text 5</div>
-            </div>
-            <div class="rectangle">
-              <div class="rec-icon">
-                <img src="icon6.png" alt="Icon 6" />
-              </div>
-              <div class="rec-text">Rectangle Text 6</div>
+              <div class="rec-text">APIs</div>
             </div>
           </div>
         </section>
@@ -106,7 +95,24 @@
           <li><a href="policy\privacypolicy.html">Privacy Policy</a></li>
           <li><a href="policy/tos.html">Terms of Service</a></li>
         </ul>
+
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://github.com/Synthexia" class="social-icon">
+                <img src="assets/images/github.png" alt="Github Icon" /> Github
+              </a>
+            </li>
+            <li>
+              <a href="https://discord.gg/wKADUUfcpj" class="social-icon">
+                <img src="assets/images/discord.png" alt="Discord Icon" />
+                Discord
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
+    <script src="assets/scripts/navicon.js"></script>
   </body>
 </html>
