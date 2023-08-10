@@ -166,6 +166,24 @@ footer a {
   height: 30px;
 }
 
+/* construction*/
+.concontainer {
+  text-align: center;
+}
+
+.construction-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.concontainer h1 {
+  font-family: cursive;
+  font-size: 24px;
+  color: #fcfbfb;
+  margin-bottom: 25px;
+}
+
 /* Rectangle section styling */
 .rectangle-section {
   display: grid;
