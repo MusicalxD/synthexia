@@ -25,9 +25,19 @@ body h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#preloader {
+  background: linear-gradient(to bottom, #a044fccc, #a044fc33),
+    black url(../images/preloader.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 /* Navigation */
 header {
-  background-color: rgba(160, 68, 252, 0.8);
+  background-color: #a044fccc;
   padding: 10px;
   position: relative;
   z-index: 1;
@@ -121,7 +131,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: rgba(160, 68, 252, 0.8);
+  background-color: #a044fccc;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -198,7 +208,7 @@ footer a {
 
 .rectangle {
   position: relative;
-  background-color: rgba(160, 68, 252, 0.2);
+  background-color: #a044fc33;
   border: 1px solid transparent;
   padding: 20px;
   display: flex;
@@ -304,5 +314,8 @@ footer a {
   }
   nav ul {
     display: none;
+  }
+  #preloader {
+    background-size: 20%;
   }
 }
