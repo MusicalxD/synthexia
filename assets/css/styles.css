@@ -123,7 +123,7 @@ nav a:hover {
   max-width: 90vw;
   margin: 0 auto;
   font-family: "Rubik", sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .centered-section {
@@ -339,6 +339,7 @@ footer a {
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .profile:hover {
@@ -360,10 +361,10 @@ footer a {
 }
 
 .username {
-  text-decoration: none;
   margin-top: 10px;
   font-size: 18px;
   color: white;
+  text-decoration: none;
 }
 
 .about {
@@ -373,9 +374,8 @@ footer a {
   text-decoration: none;
 }
 
-.about a {
+.profile-link {
   text-decoration: none;
-  color: white;
 }
 
 /* Media Queries */
