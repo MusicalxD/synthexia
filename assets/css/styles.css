@@ -122,7 +122,7 @@ nav a:hover {
   flex: 1;
   max-width: 90vw;
   margin: 0 auto;
-  font-family: cursive;
+  font-family: "Rubik", sans-serif;
 }
 
 .centered-section {
@@ -203,7 +203,7 @@ footer a {
 }
 
 .concontainer h1 {
-  font-family: cursive;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   color: #fcfbfb;
   margin-bottom: 25px;
@@ -250,7 +250,7 @@ footer a {
 }
 
 .rec-text {
-  font-family: cursive;
+  font-family: "Rubik", sans-serif;
   flex: 1;
 }
 
