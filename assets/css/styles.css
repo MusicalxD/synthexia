@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Rubik", sans-serif;
   text-align: center;
   color: white;
   margin: 0;
@@ -27,15 +26,6 @@ body {
 
 main {
   flex-grow: 1;
-}
-
-body h2 {
-  font-family: "Courier New", Courier, monospace;
-}
-
-body h4 {
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
 }
 
 #preloader {
@@ -82,6 +72,7 @@ nav {
 }
 
 .company-name {
+  font-family: 'Spicy Rice', cursive;
   color: white;
   font-size: 24px;
   margin-left: 5px;
@@ -95,6 +86,7 @@ nav ul {
 }
 
 nav a {
+  font-family: "Kreon", serif;
   color: white;
   text-decoration: none;
   transition: color 0.3s;
@@ -124,6 +116,15 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* icon rotate */
+.icon-rotate {
+  transition: transform 0.3s ease;
+}
+
+.icon-rotate.rotate {
+  transform: rotate(360deg);
+}
+
 /* Centered sections */
 .container {
   flex: 1;
@@ -133,10 +134,12 @@ nav a:hover {
 
 .container h4 {
   flex: 1;
-  max-width: 90vw;
+  max-width: 80vw;
   margin: 0 auto;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 23px;
   line-height: 1.7;
+  font-weight: lighter;
 }
 
 .centered-section {
@@ -144,12 +147,15 @@ nav a:hover {
 }
 
 .centered-section h2 {
+  font-weight: lighter;
+  font-family: 'Fugaz One', cursive;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
+  font-family: 'BioRhyme', serif;
   background-color: #513cc5;
   color: white;
   padding: 20px 0;
@@ -217,7 +223,7 @@ footer a {
 }
 
 .concontainer h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Kreon', serif;
   font-size: 24px;
   color: #fcfbfb;
   margin-bottom: 25px;
@@ -263,7 +269,7 @@ footer a {
 }
 
 .rec-text {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
   flex: 1;
 }
 
@@ -319,22 +325,18 @@ footer a {
 }
 
 .extension-box p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kreon', serif;
   font-size: 16px;
   text-align: center;
 }
 
 .privacy-tos {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Dangrek', cursive;
   text-align: left;
 }
 
 .privacy-tos a {
   color: white;
-}
-
-.ptt {
-  font-family: "Courier New", Courier, monospace;
 }
 
 .disicon {
