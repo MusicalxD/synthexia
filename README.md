@@ -24,6 +24,7 @@ We welcome contributions from the community! If you have suggestions, find bugs,
 2. Create a new branch for your changes.
 3. Make your changes and test them locally.
 4. Submit a pull request to our repository. We'll review your changes and merge them if they align with our goals.
+- Please follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for merge requests and commit messages.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
