@@ -40,9 +40,13 @@
         crossorigin
     />
     <link
-        href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
         rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
     />
+    <link
+        rel='stylesheet'
+        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+    >
     <!-- ========= Fonts ========= -->
     <title>Team - Synthexia</title>
 </head>
@@ -65,10 +69,26 @@
             </a>
             <nav>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../work/extensions.html">Extensions</a></li>
-                    <li><a href="../work/npms.html">NPMs</a></li>
-                    <li><a href="../team/team.html">Team</a></li>
+                    <li>
+                        <a href="../index.html">
+                            <i class='bx bx-home-alt' ></i> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../work/extensions.html">
+                            <i class='bx bx-extension' ></i> Extensions
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../work/npms.html">
+                            <i class='bx bx-package' ></i> NPMs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../team/team.html">
+                            <i class='bx bx-group' ></i> Team
+                        </a>
+                    </li>
                 </ul>
                 <div class="nav-icon icon-rotate">
                     <img
@@ -76,6 +96,7 @@
                         src="../assets/images/menu.png"
                         alt="Menu Icon"
                         oncontextmenu="return false;"
+                        draggable="false;"
                     />
                 </div>
             </nav>
@@ -119,14 +140,12 @@
                 <ul>
                     <li>
                         <a href="https://github.com/Synthexia" class="social-icon">
-                            <img src="../assets/images/github.png" alt="Github Icon" />
-                            Github
+                            <i class='bx bxl-github bx-md' ></i> GitHub
                         </a>
                     </li>
                     <li>
                         <a href="https://discord.gg/wKADUUfcpj" class="social-icon">
-                            <img src="../assets/images/discord.png" alt="Discord Icon" />
-                            Discord
+                            <i class='bx bxl-discord-alt bx-md' ></i> Discord
                         </a>
                     </li>
                 </ul>

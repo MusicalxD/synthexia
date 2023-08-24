@@ -3,7 +3,7 @@
 Welcome to the GitHub repository for our website! This repository contains the source code and assets for our website, which is hosted [here](https://musicalxd.github.io/synthexia/).
 
 ## Introduction
-Welcome to [Synthexia](https://musicalxd.github.io/synthexia/) ! This website serves as a platform to showcase our projects, team members, and more. With a user-friendly interface and engaging content, we aim to provide an immersive experience for our visitors.
+Welcome to [Synthexia](https://musicalxd.github.io/synthexia/)! This website serves as a platform to showcase our projects, team members, and more. With a user-friendly interface and engaging content, we aim to provide an immersive experience for our visitors.
 
 ## Features
 - **Interactive Extensions**: Explore our collection of browser extensions, each designed to enhance your online experience.

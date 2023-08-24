@@ -119,6 +119,8 @@ nav a:hover {
     border-radius: 5px;
     z-index: 2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* icon rotate */
@@ -183,6 +185,11 @@ footer ul {
 footer a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #e74c3c;
 }
 
 /* socials */
@@ -202,18 +209,18 @@ footer a {
     margin: 0;
 }
 
+
 .social-icons a {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     color: white;
+    transition: color 0.3s;
 }
 
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
+.social-icons a:hover {
+    color: #e74c3c;
 }
 
 /* construction */
