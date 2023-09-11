@@ -96,17 +96,34 @@
                         src="./assets/images/menu.png"
                         alt="Menu Icon"
                         oncontextmenu="return false;"
+                        draggable="false"
                     />
                 </div>
             </nav>
         </header>
-        <main>
+        <main> 
+                <section id="search" class="centered-section">
+                        <label>
+                            <input 
+                                class="search-bar" 
+                                type="search" 
+                                aria-controls="search-results"
+                                placeholder="Search Our Projects"
+                            />
+                        </label>
+                            <ol 
+                                id="search-results" 
+                                class="search-results" 
+                                aria-live="polite"
+                            >
+                            </ol>                 
+                </section>
             <div class="container">
                 <section id="home" class="centered-section">
                     <h2>Welcome to Synthexia</h2>
                     <h4>
                         "Synthexia" is a group of young skilled developers dedicated to
-                        creating innovative softwares. With diverse expertise and a
+                        creating innovative software. With diverse expertise and a
                         collaborative approach, we deliver cutting-edge technology that
                         surpasses expectations. We stay updated on the latest trends,
                         ensuring our projects are adaptable and forward-thinking. From web
@@ -120,31 +137,19 @@
                     <div class="rectangle-section">
                         <div class="rectangle">
                             <div class="rec-icon">
-                                <img
-                                src="./assets/images/vscode.png"
-                                alt="Icon 1"
-                                draggable="false"
-                            />
+                                <img src="./assets/images/vscode.png" alt="Icon 1" draggable="false" />
                             </div>
                             <div class="rec-text">VS Code Extensions</div>
                         </div>
                         <div class="rectangle">
                             <div class="rec-icon">
-                                <img
-                                src="./assets/images/npm.png"
-                                alt="Icon 2"
-                                draggable="false"
-                            />
+                                <img src="./assets/images/npm.png" alt="Icon 2" draggable="false" />
                             </div>
                             <div class="rec-text">NPM Packages</div>
                         </div>
                         <div class="rectangle">
                             <div class="rec-icon">
-                                <img
-                                    src="./assets/images/api.png"
-                                    alt="Icon 3"
-                                    draggable="false"
-                                />
+                                <img src="./assets/images/api.png" alt="Icon 3" draggable="false" />
                             </div>
                             <div class="rec-text">APIs</div>
                         </div>
@@ -163,12 +168,12 @@
                 <ul>
                     <li>
                         <a href="https://github.com/Synthexia" class="social-icon">
-                            <i class='bx bxl-github bx-md' ></i> GitHub
+                            <i class='bx bxl-github bx-md'></i> GitHub
                         </a>
                     </li>
                     <li>
                         <a href="https://discord.gg/wKADUUfcpj" class="social-icon">
-                            <i class='bx bxl-discord-alt bx-md' ></i> Discord
+                            <i class='bx bxl-discord-alt bx-md'></i> Discord
                         </a>
                     </li>
                 </ul>
@@ -176,6 +181,7 @@
         </footer>
     </div>
     <script src="./assets/scripts/main.js"></script>
+    <script src="./assets/scripts/search.js"></script>
 </body>
 
 </html>

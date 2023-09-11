@@ -101,7 +101,23 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main> 
+                <section id="search" class="centered-section">
+                        <label>
+                            <input 
+                                class="search-bar" 
+                                type="search" 
+                                aria-controls="search-results"
+                                placeholder="Search Our Projects"
+                            />
+                        </label>
+                            <ol 
+                                id="search-results" 
+                                class="search-results" 
+                                aria-live="polite"
+                            >
+                            </ol>                 
+                </section>
             <div class="container">
                 <section id="extensions" class="centered-section">
                     <img
@@ -175,6 +191,7 @@
         </footer>
     </div>
     <script src="../assets/scripts/main.js"></script>
+    <script src="../assets/scripts/search.js"></script>
 </body>
 
 </html>
