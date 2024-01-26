@@ -19,8 +19,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     />
     <!-- ========= Fonts ========= -->
     <title>Constructions - Synthexia</title>
@@ -29,31 +33,62 @@
     <div id="preloader"></div>
     <div>
       <header>
-        <div class="logo-container">
-          <div class="logo">
-            <img
-                            src="../assets/images/logo.png"
-                            alt="Logo"
-                            oncontextmenu="return false;"
-                        />
+        <a href="../" class="logo-link">
+          <div class="logo-container">
+            <div class="logo">
+              <img
+                src="../assets/images/logo.png"
+                alt="Logo"
+                oncontextmenu="return false;"
+              />
+            </div>
+            <div class="company-name">Synthexia</div>
           </div>
-          <div class="company-name">Synthexia</div>
-        </div>
+        </a>
         <nav>
           <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../work/extensions.html">Extensions</a></li>
-            <li><a href="../work/npms.html">NPMs</a></li>
-            <li><a href="../team/team.html">Team</a></li>
+            <div class="nav-option">
+              <li>
+                <a href="../index.html"
+                  ><i class="bx bx-home-alt"></i><span> Home</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../work/extensions.html"
+                  ><i class="bx bx-extension"></i><span> Extensions</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../work/npms.html"
+                  ><i class="bx bx-package"></i><span> NPMs</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../team/"
+                  ><i class="bx bx-group"></i><span> Team</span></a
+                >
+              </li>
+            </div>
           </ul>
           <div class="nav-icon icon-rotate">
             <img
+              class="menuicon"
               src="../assets/images/menu.png"
               alt="Menu Icon"
-              class="menuicon"
+              oncontextmenu="return false;"
+              draggable="false"
             />
           </div>
         </nav>
+        <a href="https://discord.gg/wKADUUfcpj">
+          <div class="join-us">Join Us</div>
+        </a>
       </header>
       <main>
         <div class="concontainer">
@@ -67,31 +102,45 @@
           </h1>
         </div>
       </main>
-      <footer>
-        <p>&copy; 2023 Synthexia. All rights reserved.</p>
-        <ul>
-          <li><a href="../policy/privacypolicy.html">Privacy Policy</a></li>
-          <li><a href="../policy/terms.html">Terms of Service</a></li>
-        </ul>
-
-        <div class="social-icons">
-          <ul>
-            <li>
-              <a href="https://github.com/Synthexia" class="social-icon">
-                <img src="../assets/images/github.png" alt="Github Icon" />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://discord.gg/wKADUUfcpj" class="social-icon">
-                <img src="../assets/images/discord.png" alt="Discord Icon" />
-                Discord
-              </a>
-            </li>
-          </ul>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li>
+                  <a href="../policy/privacypolicy.html">Privacy Policy</a>
+                </li>
+                <li><a href="../policy/terms.html">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <ul>
+                <li>
+                  <a href="../team/">Team</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://github.com/Synthexia" target="_blank"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a href="https://discord.gg/wKADUUfcpj" target="_blank"
+                  ><i class="bx bxl-discord"></i
+                ></a>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2023 Synthexia. All rights reserved.</p>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
     <script src="../assets/scripts/main.js"></script>
+    <script src="../assets/scripts/search.js"></script>
   </body>
 </html>

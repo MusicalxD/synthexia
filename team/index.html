@@ -1,175 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Synthexia" />
     <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
+      property="og:description"
+      content="A collective of youthful and passionate developers."
     />
     <meta
-        property="og:title"
-        content="Synthexia"
-    />
-    <meta
-        property="og:description"
-        content="A collective of youthful and passionate developers."
-    />
-    <meta
-        property="og:image"
-        content="https://raw.githubusercontent.com/Synthexia/website/main/assets/images/logo.png"
+      property="og:image"
+      content="https://raw.githubusercontent.com/Synthexia/website/main/assets/images/logo.png"
     />
     <!-- <meta property="og:url" content="https://www.example.com"> -->
-    <link
-        rel="icon"
-        type="image/x-icon"
-        href="../assets/images/favicon.ico"
-    />
-    <link
-        rel="stylesheet"
-        href="../assets/css/styles.css"
-    />
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
     <!-- ========= Fonts ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
     />
     <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     />
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Courgette&family=Dangrek&family=Fugaz+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Kreon&family=Lobster&family=Merriweather:wght@300&family=Pacifico&family=Spicy+Rice&display=swap"
-    />
-    <link
-        rel='stylesheet'
-        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-    >
     <!-- ========= Fonts ========= -->
     <title>Team - Synthexia</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="preloader"></div>
     <div>
-        <header>
-            <a href="../" class="logo-link">
-                <div class="logo-container">
-                    <div class="logo">
-                        <img
-                            src="../assets/images/logo.png"
-                            alt="Logo"
-                            oncontextmenu="return false;"
-                        />
-                    </div>
-                    <div class="company-name">Synthexia</div>
+      <header>
+        <a href="../" class="logo-link">
+          <div class="logo-container">
+            <div class="logo">
+              <img
+                src="../assets/images/logo.png"
+                alt="Logo"
+                oncontextmenu="return false;"
+              />
+            </div>
+            <div class="company-name">Synthexia</div>
+          </div>
+        </a>
+        <nav>
+          <ul>
+            <div class="nav-option">
+              <li>
+                <a href="../index.html"
+                  ><i class="bx bx-home-alt"></i><span> Home</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../work/extensions.html"
+                  ><i class="bx bx-extension"></i><span> Extensions</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../work/npms.html"
+                  ><i class="bx bx-package"></i><span> NPMs</span></a
+                >
+              </li>
+            </div>
+            <div class="nav-option">
+              <li>
+                <a href="../team/"
+                  ><i class="bx bx-group"></i><span> Team</span></a
+                >
+              </li>
+            </div>
+          </ul>
+          <div class="nav-icon icon-rotate">
+            <img
+              class="menuicon"
+              src="../assets/images/menu.png"
+              alt="Menu Icon"
+              oncontextmenu="return false;"
+              draggable="false"
+            />
+          </div>
+        </nav>
+        <a href="https://discord.gg/wKADUUfcpj">
+          <div class="join-us">Join Us</div>
+        </a>
+      </header>
+      <main>
+        <section id="search" class="centered-section">
+          <label>
+            <input
+              class="search-bar"
+              type="search"
+              aria-controls="search-results"
+              placeholder="Search Our Projects"
+            />
+          </label>
+          <ol
+            id="search-results"
+            class="search-results"
+            aria-live="polite"
+          ></ol>
+        </section>
+        <div class="container">
+          <section id="home" class="centered-section">
+            <h2>Synthexia Team</h2>
+            <h4>Yes, We're the team behind this magic!</h4>
+          </section>
+          <section id="profiles" class="centered-section">
+            <a
+              class="profile-link"
+              href="https://discord.com/users/437154602626973697"
+            >
+              <div class="profile">
+                <img
+                  class="avatar"
+                  src="https://avatars.githubusercontent.com/kitomanari"
+                  alt="Profile Picture"
+                />
+                <h1 class="username">Kito</h1>
+                <div class="about">
+                  I'm a coding enthusiast, I love anime, changing my style from
+                  time to time, and annoying Musical
                 </div>
+              </div>
             </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../">
-                            <i class='bx bx-home-alt' ></i> Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../work/extensions.html">
-                            <i class='bx bx-extension' ></i> Extensions
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../work/npms.html">
-                            <i class='bx bx-package' ></i> NPMs
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../team/">
-                            <i class='bx bx-group' ></i> Team
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav-icon icon-rotate">
-                    <img
-                        class="menuicon"
-                        src="../assets/images/menu.png"
-                        alt="Menu Icon"
-                        oncontextmenu="return false;"
-                        draggable="false"
-                    />
+            <a
+              class="profile-link"
+              href="https://discord.com/users/617836989672325151"
+            >
+              <div class="profile">
+                <img
+                  class="avatar"
+                  src="https://avatars.githubusercontent.com/musicalxd"
+                  alt="Profile Picture"
+                />
+                <h1 class="username">Musical</h1>
+                <div class="about">
+                  Idk, I just code random stuff for fun; UwU
                 </div>
-            </nav>
-        </header>
-        <main> 
-                <section id="search" class="centered-section">
-                        <label>
-                            <input 
-                                class="search-bar" 
-                                type="search" 
-                                aria-controls="search-results"
-                                placeholder="Search Our Projects"
-                            />
-                        </label>
-                            <ol 
-                                id="search-results" 
-                                class="search-results" 
-                                aria-live="polite"
-                            >
-                            </ol>                 
-                </section>
-            <div class="container">
-                <section id="home" class="centered-section">
-                    <h2>Synthexia Team</h2>
-                    <h4>Yes, We're the team behind this magic!</h4>
-                </section>
-                <section id="profiles" class="centered-section">
-                    <a class="profile-link" href="https://discord.com/users/437154602626973697">
-                        <div class="profile">
-                            <img class="avatar" src="https://avatars.githubusercontent.com/kitomanari"
-                                alt="Profile Picture" />
-                            <h1 class="username">Kito</h1>
-                            <div class="about">
-                                I'm a coding enthusiast, I love anime, changing my style from
-                                time to time, and annoying Musical
-                            </div>
-                        </div>
-                    </a>
-                    <a class="profile-link" href="https://discord.com/users/617836989672325151">
-                        <div class="profile">
-                            <img class="avatar" src="https://avatars.githubusercontent.com/musicalxd"
-                                alt="Profile Picture" />
-                            <h1 class="username">Musical</h1>
-                            <div class="about">Idk, I just code random stuff for fun; UwU</div>
-                        </div>
-                    </a>
-                </section>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; 2023 Synthexia. All rights reserved.</p>
-            <ul>
-                <li><a href="../policy/privacyPolicy.html">Privacy Policy</a></li>
+              </div>
+            </a>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li>
+                  <a href="../policy/privacypolicy.html">Privacy Policy</a>
+                </li>
                 <li><a href="../policy/terms.html">Terms of Service</a></li>
-            </ul>
-            <div class="social-icons">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Synthexia" class="social-icon">
-                            <i class='bx bxl-github bx-md' ></i> GitHub
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://discord.gg/wKADUUfcpj" class="social-icon">
-                            <i class='bx bxl-discord-alt bx-md' ></i> Discord
-                        </a>
-                    </li>
-                </ul>
+              </ul>
             </div>
-        </footer>
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <ul>
+                <li>
+                  <a href="../team/">Team</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://github.com/Synthexia" target="_blank"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a href="https://discord.gg/wKADUUfcpj" target="_blank"
+                  ><i class="bx bxl-discord"></i
+                ></a>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2023 Synthexia. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="../assets/scripts/main.js"></script>
     <script src="../assets/scripts/search.js"></script>
-</body>
-
+  </body>
 </html>
